@@ -22,20 +22,23 @@ public class day11 {
         String jawaban = input.nextLine();
         
         boolean mahasiswa;
-        if (jawaban.equalsIgnoreCase("Ya")) {
+        if (jawaban.equalsIgnoreCase("Ya")) {  //equalsIgnoreCase: bisa menginput huruf besar maupun kecil
             mahasiswa = true;
         }
         else {
             mahasiswa = false;
         }
         
+        System.out.println(""); //Baris kosong
+        
         //Menampilkan hasil input
-        System.out.println("\n=== Data Anda ===");
-        System.out.println("Nama       : " + nama);
-        System.out.println("Umur       : " + umur + " tahun");
-        System.out.println("Tinggi     : " + tinggi + " cm");
-        System.out.println("Mahasiswa? : " + (mahasiswa ? "Ya" : "Tidak"));
-
+        if (mahasiswa) {
+            System.out.println("Halo, " + nama + ", Anda berumur " + umur + ", tinggi badan Anda " + tinggi + ", dan Anda seorang mahasiswa.");
+        }
+        else {
+            System.out.println("Halo, " + nama + ", Anda berumur " + umur + ", tinggi badan Anda " + tinggi + ", dan Anda bukan seorang mahasiswa.");
+        }
+        
         input.close();
         
     }
