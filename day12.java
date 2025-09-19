@@ -16,10 +16,10 @@ public class day12 {
         System.out.print("Masukkan Prodi Anda: ");
         String prodi = input.nextLine();
         
-        System.out.print("Masukkan Fakultas Anda: ");
+        System.out.print("Masukkan Fakultas Anda; ");
         String fakultas = input.nextLine();
         
-        System.out.print("Masukkan Universitas Anda; ");   
+        System.out.print("Masukkan Universitas Anda: ");   
         String universitas = input.nextLine();
         
         //Menampikan output
