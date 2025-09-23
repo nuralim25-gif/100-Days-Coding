@@ -15,8 +15,8 @@ public class day16 {
         //Menampilkan hasil
         System.out.println("Angka pertama: " + angka1);
         System.out.println("Angka kedua  : " + angka2);     
-        System.out.println("\nHasil Penjumlahan: " + hasilkali);
-        System.out.println("Hasil Pengurangan: " + hasilbagi);
+        System.out.println("\nHasil Perkalian: " + hasilkali);
+        System.out.println("Hasil Pembagian : " + hasilbagi);
     }
     
 }
