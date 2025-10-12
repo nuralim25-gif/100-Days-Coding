@@ -5,11 +5,19 @@ public class Day35 {
         Scanner in = new Scanner (System.in);
         
         //Inputan
-        System.out.print("Input nilai Anda: ");
-        double nilai = in.nextInt();
+        System.out.print("Masukkan nama Anda: ");
+        String nama = in.nextLine();
+        System.out.print("Masukkan NIM Anda : ");
+        String nim = in.nextLine();
         
-        if (nilai >= 70){
-            System.out.println("\nSELAMAT ANDA LULUS");
+        //Merapikan tampilan
+        String fixname = "Nur Alim";
+        String fixnim = "D0225014";
+        
+        if (nama.equalsIgnoreCase("Nur Alim") && nim.equalsIgnoreCase("D0225014")){
+            System.out.println("\nSelamat Datang " + fixname + ", NIM Anda adalah " + fixnim);
+        }else {
+            System.out.println("\nTIDAK DIKENALI!!!");
         }
     }
     
