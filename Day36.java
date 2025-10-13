@@ -13,7 +13,7 @@ public class Day36 {
         if (kehadiran>=5){
             System.out.print("Nilai    : ");
             int nilai = in.nextInt();
-            if (nilai>91&&nilai>=100){
+            if (nilai>=91&&nilai<=100){
                 System.out.printf("%nHalo, %s, bobot nilai Anda A", nama);
             }else if (nilai>=81&&nilai<=90){
                 System.out.printf("%nHalo, %s, bobot nilai Anda B", nama);
